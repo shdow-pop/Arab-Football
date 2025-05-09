@@ -54,13 +54,13 @@ footer {
   padding: 15px;
   font-size: 14px;
 }table {
-  width: 80%;
+  width: 40%;
   border-collapse: collapse;
   margin-top: 15px;
 }
 
 th, td {
-  padding: 12px;
+  padding: 10px;
   border: 1px solid #ccc;
   text-align: center;
 }
