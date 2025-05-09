@@ -1,0 +1,116 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  direction: rtl;
+  background-color: #f3f4f6;
+  color: #111;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0d1b2a;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  background-color: white;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #0d1b2a;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+footer {
+  background-color: #0d1b2a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+thead {
+  background-color: #0d1b2a;
+  color: white;
+}
+.navbar {
+  background-color: #1e2a38;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffcc00;
+}
+.header {
+   display: flex;
+   align-items: center; /* لضبط المحاذاة الرأسية */
+}
+
+.logo {
+   width: 50px; /* حجم الصورة */
+   height: 50px; /* تأكد من أن العرض والارتفاع متساويين لجعل الصورة دائرية */
+   border-radius: 50%; /* تحويل الصورة إلى شكل دائري */
+   object-fit: cover; /* لضبط الصورة داخل الإطار */
+   margin-right: 10px; /* المسافة بين الصورة والشعار */
+}
+
+.site-title {
+   font-size: 24px; /* حجم النص */
+   margin: 0; /* إزالة الهوامش الافتراضية */
+}
